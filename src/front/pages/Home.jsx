@@ -15,7 +15,7 @@ export const Home = () => {
             <Link className="fs-2 fw-bold" to="/login">Login</Link>
             <h2>O puedes ir a tu perfil pulsando aquí:
             <span className="nav nav-link pointer text-primary" onClick={handleProfile}>Profile!</span>
-            </h2>
+            </h2> 
         </div>
     );
 };
